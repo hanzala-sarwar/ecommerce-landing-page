@@ -7,7 +7,7 @@ const Footer = () => {
     <div>
 
       {/* frame 16 */}
-      <div className='py-8 flex flex-col gap-8 mt-12 items-center bg-[#F5F7FA]'>
+      <div className='py-8 flex flex-col gap-8  items-center bg-[#F5F7FA]'>
         <h1 className="font-semibold text-[64px] leading-[76px] text-[#263238] text-center max-w-[887px]">
           Pellentesque suscipit <br />
           fringilla libero eu.

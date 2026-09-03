@@ -4,7 +4,7 @@ import React from 'react'
 const Customers = () => {
     return (
         <div className="bg-[#F5F7FA]">
-            <div className=" w-full max-w-360 h-[390px] mx-auto  py-8  px-36 flex justify-between gap-19.5">
+            <div className=" w-full max-w-360 h-97.5 mx-auto  py-8  px-36 flex justify-between gap-19.5">
 
                 {/* image 9 */}
                 <div className="w-81.5 shrink-0">
