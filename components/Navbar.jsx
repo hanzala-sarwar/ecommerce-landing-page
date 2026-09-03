@@ -14,13 +14,22 @@ const Navbar = () => {
                     />
                 </div>
 
-                <div className='text-gray-600 w-147  flex items-center  gap-6 '>
-                    <a href='#'>Home</a>
-                    <a href='#'>Service</a>
-                    <a href='#'>Feature</a>
-                    <a href='#'>Product</a>
-                    <a href='#'>Testimonial</a>
-                    <a href='#'>FAQ</a>
+                <div className='text-[#18191F] w-147  flex items-center left-[425.5px] top-[30px]  gap-6 '>
+
+                   {/* heading name */}
+                       
+                       <div className='w-[588px] h-[24px] top-[50px] left-[425px] flex gap-[50px]'>
+                       <a className='w-[46px] h-[24px] flex gap-[10px]' href='#'>Home</a> 
+                       <a className='w-[46px] h-[24px] flex gap-[10px]' href='#'>Service</a> 
+                       <a className='w-[46px] h-[24px] flex gap-[10px]' href='#'>Feature</a> 
+                       <a className='w-[46px] h-[24px] flex gap-[10px]' href='#'>Product</a> 
+                       <a className='w-[46px] h-[24px] flex gap-[10px]' href='#'>Testimonial</a> 
+                       <a className='w-[46px] h-[24px] flex gap-[10px]' href='#'>FAQ</a> 
+                     
+
+                       </div>
+                     
+                    
                 </div>
 
                 {/* Login  */}

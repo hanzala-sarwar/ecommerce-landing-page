@@ -4,7 +4,7 @@ import Image from "next/image";
 const Hero = () => {
     return (
         <div className='w-full bg-[#F5F7FA]'>
-            <div className=" w-full max-w-360 mx-auto py-24 px-33 flex justify-center flex-col gap-26 ">
+            <div className=" w-full max-w-360 mx-auto pt-16 px-33 flex justify-center flex-col pb-4 ">
                 <div className=" flex justify-between ">
 
                     {/* frame 1 */}

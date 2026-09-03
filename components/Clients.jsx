@@ -6,11 +6,12 @@ const Clients = () => {
         <div className="bg-white flex flex-col items-center gap-4 pt-6">
 
             <div className='gap-2' >
-                <h1 
-                // className="text-gray-900 text-2xl font text-center font-bold"
-                className="w-277.5 h-11 font-sans font-semibold text-[36px] leading-11 tracking-normal text-center"
-                >Our Clients</h1>
-                <p className="text-gray-400 text-center">We have been working with some fortune 500+ clients</p>
+                <h1 className="text-[#4D4D4D] text-[36px] leading-[44px] font-semibold text-center">
+                    Our Clients
+                </h1>
+                <p className="text-[#717171] text-[16px] leading-[24px] font-normal text-center">
+                    We have been working with some Fortune 500+ clients
+                </p>
             </div>
 
 

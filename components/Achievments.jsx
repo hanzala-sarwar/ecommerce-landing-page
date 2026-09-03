@@ -1,99 +1,122 @@
+
 import Image from 'next/image'
 import React from 'react'
 
-const Achievments = () => {
+const Achievements = () => {
+
     return (
-        <div className='bg-gray-100 py-3.5 px-36 flex justify-between '>
-            {/* section heading  */}
-            <div className='w-135 gap-2'>
-                <h1 className='text-gray-900 font-bold text-2xl pt-10'>
-                    Helping a local <br />
-                    <span className='text-green-600'>
-                        business reinvent itself
-                    </span>
-                </h1>
-                <p className='text-gray-500'>
-                    We reacehd here with our hardwork and dedication
-                </p>
 
-            </div>
+        <div className='bg-[#F5F7FA]'>
 
-            {/* counts section */}
-            <div className='w-135 gap-10'>
-                {/* Row 1 */}
-                <div className='flex w-135 gap-7.5'>
-                    {/* members */}
-                    <div className='w-63.75 gap-4'>
+            <div className='py-16 px-36 flex justify-between items-center'>
+
+                {/* section heading */}
+                <div className='w-[540px] flex flex-col gap-2'>
+
+                    <h1 className='max-w-[408px] text-[36px] leading-[44px] font-semibold text-[#4D4D4D]'>
+                        Helping a local{' '}
+                        <span className='text-[#4CAF4F]'>
+                            business reinvent itself
+                        </span>
+                    </h1>
+
+                    <p className='text-[16px] leading-[24px] font-normal text-[#18191F]'>
+                        We reached here with our hard work and dedication
+                    </p>
+
+                </div>
+
+
+                {/* counts section */}
+                <div className='w-[540px] grid grid-cols-2 gap-y-10'>
+
+                    {/* Members */}
+                    <div className='w-[255px] flex items-center gap-4'>
+
                         <Image
-                            alt='members'
                             src="/row1.png"
+                            alt="Members"
                             width={48}
                             height={48}
                         />
-                        {/* details */}
-                        <div className='w-47.75'>
-                            <h1 className='text-gray-900'>
+
+                        <div>
+                            <h2 className='text-[24px] leading-[29px] font-semibold text-[#4D4D4D]'>
                                 2,245,341
-                            </h1>
-                            <p className='text-gray-500'>members</p>
+                            </h2>
+
+                            <p className='text-[16px] leading-[24px] text-[#717171]'>
+                                Members
+                            </p>
                         </div>
 
                     </div>
-                    {/* clubs */}
 
-                    <div className='w-63.75 gap-4'>
+
+                    {/* Clubs */}
+                    <div className='w-[255px] flex items-center gap-4'>
+
                         <Image
-                            alt='members'
                             src="/row2.png"
+                            alt="Clubs"
                             width={48}
                             height={48}
                         />
-                        {/* details */}
-                        <div className='w-47.75'>
-                            <h1 className='text-gray-900'>
+
+                        <div>
+                            <h2 className='text-[24px] leading-[29px] font-semibold text-[#4D4D4D]'>
                                 46,328
-                            </h1>
-                            <p className='text-gray-500'>members</p>
+                            </h2>
+
+                            <p className='text-[16px] leading-[24px] text-[#717171]'>
+                                Clubs
+                            </p>
                         </div>
 
                     </div>
 
-                </div>
 
-                {/* Row 2 */}
-                <div className='flex w-135 gap-7.5'>
-                    {/* members */}
-                    <div className='w-63.75 gap-4'>
+                    {/* Event Bookings */}
+                    <div className='w-[255px] flex items-center gap-4'>
+
                         <Image
-                            alt='members'
                             src="/row3.png"
+                            alt="Event Bookings"
                             width={48}
                             height={48}
                         />
-                        {/* details */}
-                        <div className='w-47.75'>
-                            <h1 className='text-gray-900'>
+
+                        <div>
+                            <h2 className='text-[24px] leading-[29px] font-semibold text-[#4D4D4D]'>
                                 828,867
-                            </h1>
-                            <p className='text-gray-500'>members</p>
+                            </h2>
+
+                            <p className='text-[16px] leading-[24px] text-[#717171]'>
+                                Event Bookings
+                            </p>
                         </div>
 
                     </div>
-                    {/* clubs */}
 
-                    <div className='w-63.75 gap-4'>
+
+                    {/* Payments */}
+                    <div className='w-[255px] flex items-center gap-4'>
+
                         <Image
-                            alt='members'
                             src="/row4.png"
+                            alt="Payments"
                             width={48}
                             height={48}
                         />
-                        {/* details */}
-                        <div className='w-47.75'>
-                            <h1 className='text-gray-900'>
+
+                        <div>
+                            <h2 className='text-[24px] leading-[29px] font-semibold text-[#4D4D4D]'>
                                 1,926,436
-                            </h1>
-                            <p className='text-gray-500'>members</p>
+                            </h2>
+
+                            <p className='text-[16px] leading-[24px] text-[#717171]'>
+                                Payments
+                            </p>
                         </div>
 
                     </div>
@@ -101,10 +124,10 @@ const Achievments = () => {
                 </div>
 
             </div>
-
 
         </div>
     )
 }
 
-export default Achievments
+export default Achievements
+

@@ -1,41 +1,58 @@
+
 import Image from 'next/image'
 import React from 'react'
 
 const Unlock = () => {
+
     return (
-        <div className=' px-36 flex justify-between items-center'>
+
+        <div className='px-36 flex justify-between items-center gap-8'>
 
             {/* frame 35 */}
-            <div className='w-[422px] h-[433px] flex items-center '>
+            <div className='w-[442px] flex-shrink-0'>
+
                 <Image
                     src="/rafiki.png"
                     alt="unlock"
-                    width={422}
-                    height={328}
+                    width={442}
+                    height={433}
+                    className='w-full h-auto'
                 />
 
             </div>
 
 
-         {/* frame 6 */}
-            <div className='w-165.25 flex flex-col gap-8'>
-                {/* frame 5 */}
-                <div className='w-150.25 flex flex-col gap-4'>
-                    <h1 className='text-2xl text-gray-900 font-bold'>The unseen of spending three <br /> years at Pixelgrade</h1>
-                    <p className='text-gray-500'>
-                        It is a long established fact that a reader will be distracted by the readable content of a pa
-                        ge when looking at its layout. The point of using Lorem Ipsum is tha
-                        t it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
-                        content here', making it look like readable English. Many desktop publishing
+            {/* frame 6 */}
+            <div className='w-[601px] flex flex-col gap-8'>
 
+                {/* frame 5 */}
+                <div className='flex flex-col gap-4'>
+
+                    <h1 className='text-[36px] leading-[44px] text-[#4D4D4D] font-semibold'>
+                        The unseen of spending three years at Pixelgrade
+                    </h1>
+
+                    <p className='text-[14px] leading-[20px] text-[#717171]'>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum.
+                        Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem
+                        sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium
+                        auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum
+                        pulvinar odio.
                     </p>
+
                 </div>
-                <button className='bg-[#4CAF4F] py-3.5 px-8 gap-2.5 w-37.75 h-13 mt-7'>Learn More</button>
+
+                <button className='bg-[#4CAF4F] py-[14px] px-[32px] w-[151px] h-[52px] text-white text-[14px] font-medium'>
+                    Learn More
+                </button>
 
             </div>
 
         </div>
+
     )
 }
 
 export default Unlock
+
+ 
