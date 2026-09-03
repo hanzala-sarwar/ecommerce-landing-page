@@ -8,6 +8,7 @@ const Calender = () => {
       <div>
      <Image
      src="/pana.png"
+     alt='calander image'
      width={441}
      height={433}
      />
