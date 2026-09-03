@@ -14,9 +14,7 @@ const Hero = () => {
                         <div className='max-w-164.25 flex flex-col gap-4'>
 
                             <h1
-                            class="w-164.25 h-38 font-sans font-semibold text-6xl leading-19 tracking-normal" 
-                            // className='text-4xl font-bold max-w-[657px]'
-                            >
+                            className="w-164.25 h-38 font-sans font-semibold text-6xl leading-19 tracking-normal" >
                                 Lesson and insights
                                 <p className='text-green-600'> From 8 years</p>
                             </h1>
@@ -24,7 +22,7 @@ const Hero = () => {
                             <p className="text-[#717171]">Where to grow your business as a photographer: site or social media?</p>
                         </div>
 
-                        <button className="bg-[#4CAF4F] px-[32px] py-[14px] rounded-sm text-[#FFFFFF] w-[128px] h-[52px]">Register</button>
+                        <button className="bg-[#4CAF4F] px-8 py-3.5 rounded-sm text-[#FFFFFF] w-[128px] h-[52px]">Register</button>
                     </div>
 
 

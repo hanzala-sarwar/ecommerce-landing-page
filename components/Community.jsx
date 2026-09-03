@@ -3,12 +3,12 @@ import Image from "next/image";
 
 const Community = () => {
     return (
-        <div className="bg-white flex flex-col gap-[16px]">
+        <div className=" flex flex-col gap-4">
 
             {/* community */}
-            <div className=" justify-center flex flex-col gap-[8px] ">
+            <div className=" justify-center flex flex-col gap-2 ">
 
-                <h1 className="text-[#4D4D4D] text-[36px] leading-[44px] font-semibold text-center">
+                <h1 className="text-[#4D4D4D] text-[36px] leading-11 font-semibold text-center">
                     Manage your entire community <br />
                     in a single system
                 </h1>
@@ -21,7 +21,7 @@ const Community = () => {
 
 
                 {/* membership Organization */}
-                <div className="w-74.75  py-6 px-8 flex flex-col gap-[8px] rounded-lg ">
+                <div className="bg-[#FFFFFF] w-74.75  py-6 px-8 flex flex-col gap-2 rounded-lg ">
 
                     {/* member */}
                     <div className='max-w-66.75 flex flex-col gap-[16px] items-center'>
@@ -82,7 +82,7 @@ const Community = () => {
                             height={38}
                         />
 
-                        <h1 className="text-gray-900 font-bold text-2xl text-center">Clubs And Groups</h1>
+                        <h1 className="text-gray-900 font-bold text-2xl text-center">Clubs And <br/> Groups</h1>
                     </div>
 
 

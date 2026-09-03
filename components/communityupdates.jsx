@@ -3,7 +3,7 @@ import React from 'react'
 
 const Communityupdates = () => {
     return (
-        <div className=' flex flex-col gap-4 py-4 items-center '>
+        <div className=' flex flex-col gap-4  items-center '>
             {/* community */}
             <div className='flex flex-col gap-2 w-277.5 items-center'>
 

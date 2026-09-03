@@ -3,8 +3,8 @@ import React from 'react'
 
 const Customers = () => {
     return (
-        <div className="bg-gray-50">
-            <div className="max-w-360 mx-auto py-8 px-36 flex justify-between gap-19.5">
+        <div className="bg-[#F5F7FA]">
+            <div className=" w-full max-w-360 h-[390px] mx-auto  py-8  px-36 flex justify-between gap-19.5">
 
                 {/* image 9 */}
                 <div className="w-81.5 shrink-0">
@@ -18,7 +18,7 @@ const Customers = () => {
                 </div>
 
                 {/* Frame 11 */}
-                <div className="max-w-187 flex flex-col gap-8">
+                <div className="w-full max-w-187 flex flex-col gap-8">
 
                     {/* content */}
                     <div className="max-w-187 flex flex-col gap-4">
@@ -82,7 +82,7 @@ const Customers = () => {
                     </div>
                 </div>
             </div>
-        </div>
+         </div>
     )
 }
 

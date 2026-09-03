@@ -3,7 +3,7 @@ import React from 'react'
 
 const Calender = () => {
   return (
-    <div className='px-36 pt-17 flex justify-between'>
+    <div className='px-36  flex justify-between'>
       {/* immage section */}
       <div>
      <Image

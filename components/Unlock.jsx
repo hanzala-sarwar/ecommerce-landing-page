@@ -6,16 +6,16 @@ const Unlock = () => {
 
     return (
 
-        <div className='px-36 flex justify-between items-center gap-8'>
+        <div className='px-36  flex justify-between items-center'>
 
             {/* frame 35 */}
-            <div className='w-[442px] flex-shrink-0'>
+            <div className='w-[442px]  '>
 
                 <Image
                     src="/rafiki.png"
                     alt="unlock"
                     width={442}
-                    height={433}
+                    height={328}
                     className='w-full h-auto'
                 />
 

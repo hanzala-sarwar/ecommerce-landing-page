@@ -12,13 +12,16 @@ import Footer from "@/components/footer";
 
 export default function Home() {
   return (
-    <div className="w-full">
+    <div className="w-full ">
 
       {/* Navbar */}
       <Navbar />
 
 
-      {/* Hero section */}
+{/* Home section */}
+ 
+ <div className="flex flex-col gap-40px">
+ {/* Hero section */}
       <Hero />
      
     {/* Clients section */}
@@ -27,7 +30,14 @@ export default function Home() {
 {/* commnity section */}
 
  <Community />
+ </div>
 
+ 
+      
+
+
+{/* Body section */}
+<div className="flex flex-col gap-[48px]">
  {/* unlock */}
  <Unlock/>
 
@@ -43,6 +53,8 @@ export default function Home() {
  {/* community update */}
 
  <Communityupdates />
+
+ </div>
 
  {/* footer */}
 

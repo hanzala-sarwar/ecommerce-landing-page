@@ -6,7 +6,7 @@ const Navbar = () => {
         <div className='w-full bg-[#F5F7FA]'>
             <nav className=' w-full max-w-360 py-[30px] flex flex-row mx-auto items-center justify-between px-33'>
                 {/* Logo */}
-                <div className='w-38.5 h-6 gap-2 top-7.5 left-26.25  '>
+                <div className='w-38.5 h-6 flex gap-2  left-26.25  '>
                     <Image src="/logo.png"
                         alt="logo"
                         width={150}
@@ -14,11 +14,11 @@ const Navbar = () => {
                     />
                 </div>
 
-                <div className='text-[#18191F] w-147  flex items-center left-[425.5px] top-[30px]  gap-6 '>
+                <div className='text-[#18191F] w-147  flex items-center left-[425.5px]   gap-6 '>
 
                    {/* heading name */}
                        
-                       <div className='w-[588px] h-[24px] top-[50px] left-[425px] flex gap-[50px]'>
+                       <div className='w-[588px] h-[24px]  left-[425px] flex gap-[50px]'>
                        <a className='w-[46px] h-[24px] flex gap-[10px]' href='#'>Home</a> 
                        <a className='w-[46px] h-[24px] flex gap-[10px]' href='#'>Service</a> 
                        <a className='w-[46px] h-[24px] flex gap-[10px]' href='#'>Feature</a> 
