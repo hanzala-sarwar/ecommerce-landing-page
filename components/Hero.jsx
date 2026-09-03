@@ -4,8 +4,8 @@ import Image from "next/image";
 const Hero = () => {
     return (
 
-        <div className=" relative w-full bg-[#F5F7FA] mx-auto flex justify-center items-center pb-4 ">
-            <div className=" flex justify-between ">
+        <div className=" py-[96px] px-[144px] relative w-full bg-[#F5F7FA] mx-auto flex justify-center items-center ">
+            
 
                 {/* frame 1 */}
                 <div className='max-w-164.25 flex flex-col gap-8'>
@@ -28,7 +28,7 @@ const Hero = () => {
 
 
                 {/* illustration image */}
-                <div className='w-87.75 h-101.75'>
+                <div className='w-[351px] h-101.75'>
                     <Image
                         src="/Illustration.png"
                         alt="hero"
@@ -36,7 +36,7 @@ const Hero = () => {
                         height={407}
                     />
                 </div>
-            </div>
+             
 
             <div className="w-11.5 flex gap-2 absolute bottom-4 items-center justify-center ">
                 <Image
