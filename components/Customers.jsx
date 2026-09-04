@@ -72,6 +72,7 @@ const Customers = () => {
                                 Meet all customers
                             </p>
                             <Image
+                            alt='right arrow'
                             src="/Right.png"
                             width={24}
                             height={24}
