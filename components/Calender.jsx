@@ -29,7 +29,7 @@ const Calender = () => {
 
         </div>
 
-        <button className='w-[157px] h-[52px] bg-[#4CAF4F] text-[#FFFFFF] rounded-[4px]'>
+        <button className='w-[157px] h-[52px] bg-[#4CAF4F] text-[#FFFFFF] rounded-[4px] cursor-pointer'>
           Learn More
         </button>
 

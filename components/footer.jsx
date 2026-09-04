@@ -1,5 +1,6 @@
 
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const Footer = () => {
@@ -13,8 +14,16 @@ const Footer = () => {
           fringilla libero eu.
         </h1>
 
-        <button className="bg-[#4CAF4F] py-[14px] px-[32px] font-medium text-sm rounded text-white w-[175px] h-[52px] flex items-center justify-center gap-2">
-          Get a Demo
+        <button className="cursor-pointer bg-[#4CAF4F] py-[14px] px-[32px]   w-[175px] h-[52px] flex items-center justify-center rounded-sm gap-2">
+          <p className='text-white font-medium text-sm rounded'>
+            Get a Demo
+          </p>
+          <Image
+            src="/bright.png"
+            alt='arrow'
+            width={16}
+            height={16}
+          />
         </button>
       </div>
 
@@ -25,50 +34,63 @@ const Footer = () => {
         <div className='w-87.5 flex flex-col gap-10'>
 
           {/* logo */}
-          <div>
-            <Image
-              src="/footerlogo.png"
-              alt="Nexcent logo"
-              width={191}
-              height={29}
-            />
-          </div>
+          <Link href="#" >
+          <Image
+            src="/footerlogo.png"
+            alt="Nexcent logo"
+            width={191}
+            height={29}
+          />
+          </Link>
 
           {/* copyright */}
-          <div className="flex flex-col gap-2 text-[14px] leading-[20px] font-normal">
+          <div className="flex flex-col gap-2 text-[14px] leading-5 font-normal">
             <p>Copyright © 2020 Nexcent ltd.</p>
             <p>All rights reserved</p>
           </div>
 
           {/* social links */}
           <div className='w-44 flex flex-row gap-4'>
-            <Image
-              src="/SocialIcons 1.png"
-              alt="social icon"
-              width={32}
-              height={32}
-            />
 
-            <Image
-              src="/SocialIcons 2.png"
-              alt="social icon"
-              width={32}
-              height={32}
-            />
+            <Link href="#">
+              <Image
+                src="/SocialIcons 1.png"
+                alt="social icon"
+                width={32}
+                height={32}
+              />
+            </Link>
 
-            <Image
-              src="/SocialIcons3.png"
-              alt="social icon"
-              width={32}
-              height={32}
-            />
 
-            <Image
-              src="/SocialIcons4.png"
-              alt="social icon"
-              width={32}
-              height={32}
-            />
+            <Link href="#">
+              <Image
+                src="/SocialIcons 2.png"
+                alt="social icon"
+                width={32}
+                height={32}
+              />
+            </Link>
+
+
+            <Link href="#">
+              <Image
+                src="/SocialIcons3.png"
+                alt="social icon"
+                width={32}
+                height={32}
+              />
+            </Link>
+
+
+            <Link href="#">
+              <Image
+                src="/SocialIcons4.png"
+                alt="social icon"
+                width={32}
+                height={32}
+              />
+            </Link>
+
           </div>
 
         </div>
@@ -83,11 +105,11 @@ const Footer = () => {
             </h3>
 
             <nav className="w-40 flex flex-col gap-3 text-[14px] leading-[20px] font-normal">
-              <p>About us</p>
-              <p>Blog</p>
-              <p>Contact us</p>
-              <p>Pricing</p>
-              <p>Testimonials</p>
+              <Link href="#">About us</Link>
+              <Link href="#">Blog</Link>
+              <Link href="#">Contact us</Link>
+              <Link href="#">Pricing</Link>
+              <Link href="#">Testimonials</Link>
             </nav>
           </div>
 
@@ -98,11 +120,11 @@ const Footer = () => {
             </h3>
 
             <nav className="w-40 flex flex-col gap-3 text-[14px] leading-[20px] font-normal">
-              <p>Help center</p>
-              <p>Terms of service</p>
-              <p>Legal</p>
-              <p>Privacy policy</p>
-              <p>Status</p>
+              <Link href="#">Help center</Link>
+              <Link href="#">Terms of service</Link>
+              <Link href="#">Legal</Link>
+              <Link href="#">Privacy policy</Link>
+              <p href="#">Status</p>
             </nav>
           </div>
 
@@ -139,4 +161,3 @@ const Footer = () => {
 
 export default Footer
 
- 

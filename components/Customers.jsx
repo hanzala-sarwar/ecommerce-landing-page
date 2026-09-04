@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const Customers = () => {
@@ -64,7 +65,9 @@ const Customers = () => {
                         </div>
 
                         {/* Frame 13 */}
-                        <div className="flex items-center p-2 gap-2 h-[44px] w-full max-w-55.75">
+                        <Link
+                        href="#"
+                        className="flex items-center p-2 gap-2 h-[44px] w-full max-w-55.75 ">
                             <p className="font-semibold text-xl leading-5 text-[#4CAF4F] whitespace-nowrap">
                                 Meet all customers
                             </p>
@@ -77,7 +80,7 @@ const Customers = () => {
 
 
                             
-                        </div>
+                        </Link>
 
                     </div>
                 </div>

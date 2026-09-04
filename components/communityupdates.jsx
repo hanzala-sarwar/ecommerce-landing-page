@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const Communityupdates = () => {
@@ -17,35 +18,133 @@ const Communityupdates = () => {
             </div>
 
             {/* frame 15 */}
-            <div className='px-36 flex gap-4 '>
+            <div className='px-36 flex gap-4 justify-between '>
 
-                <div className='w-[368px]'>
+
+                <div className='w-[368px] h-[366px] justify-center relative' >
+
                     <Image
                         alt='first'
-                        src="/1.png"
-                        height={368}
-                        width={366}
+                        src="/caring1.jpg"
+                        height={366}
+                        width={368}
+                        className='rounded-lg'
                     />
+
+
+                    {/* content */}
+                    <div className='absolute bottom-9 left-6 items-center bg-[#F5F7FA] w-[317px] h-[176px]   p-[16px] rounded-lg flex flex-col gap-[16px] '>
+                        <p className=' text-[#717171] font-inter font-semibold text-[20px] leading-[28px] tracking-normal text-center'>
+                            Creating Streamlined Safeguarding Processes with OneRen
+                        </p>
+                        {/*frame 13  */}
+                        <Link href="#" className='w-71.25  p-2 flex gap-2 items-center justify-center'>
+
+                            <p
+
+                                className=' text-[#4CAF4F] font-inter font-semibold text-xl/7 tracking-normal'>
+                                Readmore
+                            </p>
+                            
+
+                                <Image
+                                    alt='/Right.png'
+                                    src="/Right.png"
+                                    height={24}
+                                    width={24}
+
+                                />
+                             
+
+
+                        </Link>
+                    </div>
+
+
                 </div>
 
+                <div className='w-[368px] h-[366px] justify-center relative' >
 
-
-                <div>
                     <Image
                         alt='first'
-                        src="/2.png"
-                        height={368}
-                        width={366}
+                        src="/carying2.jpg"
+                        height={366}
+                        width={368}
+                        className='rounded-lg'
                     />
+
+
+                    {/* content */}
+                    <div className='absolute bottom-9 left-6 items-center bg-[#F5F7FA] w-[317px] h-[176px]   p-[16px] rounded-lg flex flex-col gap-[16px] '>
+                        <p className='text-[#717171] font-inter font-semibold text-[20px] leading-[28px] tracking-normal text-center'>
+                            What are your safeguarding responsibilities and how can you manage them?
+                        </p>
+                        {/*frame 13  */}
+                        <Link
+                        href="#"
+                        className='w-71.25  p-2 flex gap-2 items-center justify-center'>
+
+                            <p
+
+                                className=' text-[#4CAF4F] font-inter font-semibold text-xl/7 tracking-normal'>
+                                Readmore
+                            </p>
+                            
+                                <Image
+                                    alt='/Right.png'
+                                    src="/Right.png"
+                                    height={24}
+                                    width={24}
+
+                                />
+                             
+
+
+                        </Link>
+                    </div>
+
+
                 </div>
 
-                <div>
+                <div className='w-[368px] h-[366px] justify-center relative' >
+
                     <Image
                         alt='first'
-                        src="/3.png"
-                        height={368}
-                        width={366}
+                        src="/caring3.jpg"
+                        height={366}
+                        width={368}
+                        className='rounded-lg'
                     />
+
+
+                    {/* content */}
+                    <div className='absolute bottom-9 left-6 items-center bg-[#F5F7FA] w-[317px] h-[176px]  p-[16px] rounded-lg flex flex-col gap-[16px] '>
+                        <p className=' text-[#717171] font-inter font-semibold text-[20px] leading-[28px] tracking-normal text-center'>
+                            Revamping the Membership Model with Triathlon <br /> Australia
+                        </p>
+                        {/*frame 13  */}
+                        <Link href="#" className='w-71.25  p-2 flex gap-2 items-center justify-center'>
+
+                            <p
+
+                                className=' text-[#4CAF4F] font-inter font-semibold text-xl/7 tracking-normal'>
+                                Readmore
+                            </p>
+                           
+                                <Image
+                                    alt='/Right.png'
+                                    src="/Right.png"
+                                    height={24}
+                                    width={24}
+
+                                />
+                             
+
+
+                        </Link>
+                    </div>
+
+
                 </div>
 
 

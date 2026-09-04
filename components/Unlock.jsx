@@ -42,7 +42,7 @@ const Unlock = () => {
 
                 </div>
 
-                <button className='bg-[#4CAF4F] py-[14px] px-[32px] w-[151px] h-[52px] text-white text-[14px] font-medium'>
+                <button className='bg-[#4CAF4F] py-[14px] px-[32px] w-[151px] h-[52px] cursor-pointer rounded-lg text-white text-[14px] font-medium'>
                     Learn More
                 </button>
 
