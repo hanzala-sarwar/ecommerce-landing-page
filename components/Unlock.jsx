@@ -23,7 +23,7 @@ const Unlock = () => {
 
 
             {/* frame 6 */}
-            <div className='w-[601px] flex flex-col gap-8'>
+            <div className='w-150.25 flex flex-col gap-8'>
 
                 {/* frame 5 */}
                 <div className='flex flex-col gap-4'>
@@ -42,7 +42,7 @@ const Unlock = () => {
 
                 </div>
 
-                <button className='bg-[#4CAF4F] py-[14px] px-[32px] w-[151px] h-[52px] cursor-pointer rounded-lg text-white text-[14px] font-medium'>
+                <button className='bg-[#4CAF4F] py-[14px] px-[32px] w-[151px] h-[52px] cursor-pointer rounded-[4px] text-white text-[14px] font-medium'>
                     Learn More
                 </button>
 

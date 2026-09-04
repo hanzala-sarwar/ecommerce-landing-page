@@ -4,7 +4,7 @@ import React from 'react'
 const Navbar = () => {
     return (
 
-        <nav className=' w-full h-[84px] bg-[#F5F7FA]  flex   items-center justify-between px-33'>
+        <nav className=' w-full max-w-360 h-[84px] bg-[#F5F7FA]  flex   items-center justify-between px-33'>
             {/* Logo */}
             <div className='w-38.5  flex gap-2 cursor-pointer '>
                 <Image src="/logo.png"
