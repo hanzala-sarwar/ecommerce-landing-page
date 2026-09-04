@@ -5,7 +5,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>
+    <div className='w-full max-w-[1440px] mx-auto'>
 
       {/* frame 16 */}
       <div className='py-8 flex flex-col gap-8  items-center bg-[#F5F7FA]'>
@@ -35,12 +35,12 @@ const Footer = () => {
 
           {/* logo */}
           <Link href="#" >
-          <Image
-            src="/footerlogo.png"
-            alt="Nexcent logo"
-            width={191}
-            height={29}
-          />
+            <Image
+              src="/footerlogo.png"
+              alt="Nexcent logo"
+              width={191}
+              height={29}
+            />
           </Link>
 
           {/* copyright */}
@@ -160,4 +160,3 @@ const Footer = () => {
 }
 
 export default Footer
-

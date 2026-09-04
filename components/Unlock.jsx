@@ -6,7 +6,7 @@ const Unlock = () => {
 
     return (
 
-        <div className='flex justify-center items-center '>
+        <div className='w-full max-w-360 px-36 mx-auto flex justify-center items-center '>
 
             {/* frame 35 */}
             <div className='w-[442px]  '>

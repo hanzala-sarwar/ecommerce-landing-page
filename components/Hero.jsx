@@ -4,7 +4,7 @@ import Image from "next/image";
 const Hero = () => {
     return (
 
-        <div className=" py-24 px-33  relative w-full max-w-360 bg-[#F5F7FA]  flex justify-center items-center ">
+        <div className=" py-24 px-33  relative w-full max-w-360 bg-[#F5F7FA] mx-auto flex justify-center items-center ">
 
 
             {/* frame 1 */}

@@ -6,9 +6,9 @@ const Achievements = () => {
 
     return (
 
-        <div className='bg-[#F5F7FA]'>
+        // <div className=''>
 
-            <div className='py-16 px-36 flex justify-between items-center'>
+            <div className='bg-[#F5F7FA] px-36 py-16 mx-auto  flex justify-between items-center'>
 
                 {/* section heading */}
                 <div className='w-[540px] flex flex-col gap-2'>
@@ -125,7 +125,7 @@ const Achievements = () => {
 
             </div>
 
-        </div>
+        // </div>
     )
 }
 

@@ -17,7 +17,7 @@ const Clients = () => {
 
             
             {/* client logos */}
-            <div className="w-full max-w-[1152px] flex justify-between">
+            <div className="w-full max-w-[1152px] mx-auto flex justify-between">
 
 
                 <Image
