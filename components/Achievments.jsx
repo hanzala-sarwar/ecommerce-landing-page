@@ -8,7 +8,7 @@ const Achievements = () => {
 
         // <div className=''>
 
-            <div className='bg-[#F5F7FA] px-36 py-16 mx-auto  flex justify-between items-center'>
+            <div className='w-full max-w-[1440px] bg-[#F5F7FA] px-36 py-16 mx-auto  flex justify-between items-center'>
 
                 {/* section heading */}
                 <div className='w-[540px] flex flex-col gap-2'>

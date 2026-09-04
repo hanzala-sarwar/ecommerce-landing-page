@@ -32,7 +32,7 @@ const Unlock = () => {
                         The unseen of spending three years at Pixelgrade
                     </h1>
 
-                    <p className='text-[14px] leading-[20px] text-[#717171]'>
+                    <p className='text-[14px] leading-[20px] text-[#717171]'>      
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum.
                         Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem
                         sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium
