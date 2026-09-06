@@ -1,29 +1,28 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import React from 'react'
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
 
 const Customers = () => {
     return (
-       
-            <div className=" w-full max-w-360 bg-[#F5F7FA] h-97.5 mx-auto  py-8  px-36 flex justify-between gap-19.5">
+        <section className="w-full bg-[#F5F7FA]">
+            <div className="w-full max-w-[1440px] mx-auto py-8 px-6 lg:px-36 flex items-center justify-between gap-10">
 
-                {/* image 9 */}
-                <div className="w-81.5 shrink-0">
+                {/* Customer Image */}
+                <div className="shrink-0">
                     <Image
                         src="/customers.jpg"
                         alt="customer"
                         width={326}
                         height={326}
-                        className="w-81.5 h-81.5 object-cover rounded-lg"
+                        className="w-[326px] h-[326px] object-cover rounded-lg"
                     />
                 </div>
 
-                {/* Frame 11 */}
-                <div className="w-full max-w-187 flex flex-col gap-8">
+                {/* Content */}
+                <div className="flex-1 min-w-0 max-w-[748px] flex flex-col gap-8">
 
-                    {/* content */}
-                    <div className="max-w-187 flex flex-col gap-4">
-
+                    {/* Text Content */}
+                    <div className="flex flex-col gap-4">
                         <p className="font-medium text-base leading-6 text-[#717171]">
                             Maecenas dignissim justo eget nulla rutrum molestie.
                             Maecenas lobortis sem dui, vel rutrum risus tincidunt
@@ -33,14 +32,10 @@ const Customers = () => {
                             at ligula molestie, nec molestie mi blandit.
                             Suspendisse cursus tellus sed augue ultrices, quis
                             tristique nulla sodales. Suspendisse eget lorem eu
-                            turpis vestibulum pretium. Suspendisse potenti.
-                            Quisque malesuada enim sapien, vitae placerat ante
-                            feugiat eget. Quisque vulputate odio neque, eget
-                            efficitur libero condimentum id. Curabitur id nibh
-                            id sem dignissim finibus ac sit amet magna.
+                            turpis vestibulum pretium.
                         </p>
 
-                        <div className="max-w-187 flex flex-col gap-2">
+                        <div className="flex flex-col gap-2">
                             <p className="font-semibold text-xl leading-7 text-[#4CAF4F]">
                                 Tim Smith
                             </p>
@@ -51,11 +46,11 @@ const Customers = () => {
                         </div>
                     </div>
 
-                    {/* Frame 14 */}
-                    <div className="max-w-187 flex gap-8 items-center">
+                    {/* Customer Logos and Link */}
+                    <div className="w-full flex items-center  gap-8">
 
-                        {/* Frame 10 */}
-                        <div className="flex gap-10.25">
+                        {/* Logos */}
+                        <div className="flex items-center gap-6">
                             <Image src="/cus1.png" alt="customer logo" width={48} height={48} />
                             <Image src="/cus2.png" alt="customer logo" width={48} height={48} />
                             <Image src="/cus3.png" alt="customer logo" width={48} height={48} />
@@ -64,30 +59,28 @@ const Customers = () => {
                             <Image src="/cus6.png" alt="customer logo" width={48} height={48} />
                         </div>
 
-                        {/* Frame 13 */}
+                        {/* Link */}
                         <Link
-                        href="#"
-                        className="flex items-center p-2 gap-2 h-[44px] w-full max-w-55.75 ">
-                            <p className="font-semibold text-xl leading-5 text-[#4CAF4F] whitespace-nowrap">
+                            href="#"
+                            className="flex shrink-0 items-center gap-2"
+                        >
+                            <span className="font-semibold text-xl leading-5 text-[#4CAF4F] whitespace-nowrap">
                                 Meet all customers
-                            </p>
+                            </span>
+
                             <Image
-                            alt='right arrow'
-                            src="/Right.png"
-                            width={24}
-                            height={24}
-                            className='mt-1'
+                                src="/Right.png"
+                                alt="right arrow"
+                                width={24}
+                                height={24}
                             />
-
-
-                            
                         </Link>
 
                     </div>
                 </div>
             </div>
-        
-    )
-}
+        </section>
+    );
+};
 
-export default Customers
+export default Customers; 

@@ -1,47 +1,47 @@
-import Image from 'next/image'
-import React from 'react'
+import Image from "next/image";
+import React from "react";
 
 const Navbar = () => {
-    return (
+  return (
+    <nav className="w-full bg-[#F5F7FA]">
+      <div className="max-w-360 mx-auto px-6 md:px-10 lg:px-16 xl:px-36">
+        <div className="h-21 flex items-center justify-between">
+          
+          {/* Logo */}
+          <div className="cursor-pointer shrink-0">
+            <Image
+              src="/logo.png"
+              alt="Logo"
+              width={150}
+              height={50}
+            />
+          </div>
 
-        <nav className=' w-full max-w-360 h-[84px] bg-[#F5F7FA] mx-auto  flex items-center justify-between px-33'>
-            {/* Logo */}
-            <div className='w-38.5  flex gap-2 cursor-pointer '>
-                <Image src="/logo.png"
-                    alt="logo"
-                    width={150}
-                    height={50}
-                />
-            </div>
+          {/* Navigation Links */}
+          <div className="flex items-center gap-6 xl:gap-12.5">
+            <a href="#">Home</a>
+            <a href="#">Service</a>
+            <a href="#">Feature</a>
+            <a href="#">Product</a>
+            <a href="#">Testimonial</a>
+            <a href="#">FAQ</a>
+          </div>
 
+          {/* Buttons */}
+          <div className="flex items-center gap-3.5">
+            <button className="cursor-pointer py-2.5 px-5 text-[#4CAF4F]">
+              Login
+            </button>
 
+            <button className="cursor-pointer py-2.5 px-5 bg-[#4CAF4F] text-white rounded-lg">
+              Signup
+            </button>
+          </div>
 
-            {/* heading name */}
+        </div>
+      </div>
+    </nav>
+  );
+};
 
-            <div className='w-full max-w-147 flex gap-12.5 justify-between'>
-                <a className='  hover:text-gray-400' href='#'>Home</a>
-                <a className='  hover:text-gray-400  ' href='#'>Service</a>
-                <a className='  hover:text-gray-400' href='#'>Feature</a>
-                <a className='  hover:text-gray-400 ' href='#'>Product</a>
-                <a className='  hover:text-gray-400 ' href='#'>Testimonial</a>
-                <a className='  hover:text-gray-400' href='#'>FAQ</a>
-
-
-            </div>
-
-
-
-
-            {/* Login  */}
-            <div className='w-45.5  flex gap-3.5'>
-                <button className='cursor-pointer w-19.25 py-2.5 px-5 gap-2.5 bg-[#F5F7FA] text-[#4CAF4F] rounded-lg hover:bg-gray-800 hover:text-white'>Login</button>
-                <button className='cursor-pointer py-2.5 px-5 bg-[#4CAF4F] text-[#F5F7FA] w-22.75 gap-2.5 rounded-lg'>Signup</button>
-            </div>
-
-
-        </nav>
-
-    )
-}
-
-export default Navbar
+export default Navbar; 

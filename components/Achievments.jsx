@@ -6,7 +6,7 @@ const Achievements = () => {
 
     return (
 
-        // <div className=''>
+        <section className='w-full bg-[#F5F7FA]'>
 
             <div className='w-full max-w-[1440px] bg-[#F5F7FA] px-36 py-16 mx-auto  flex justify-between items-center'>
 
@@ -125,7 +125,7 @@ const Achievements = () => {
 
             </div>
 
-        // </div>
+        </section>
     )
 }
 

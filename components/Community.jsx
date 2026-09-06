@@ -17,7 +17,7 @@ const Community = () => {
 
             {/* frame 4 */}
 
-            <div className=" mx-auto flex gap-[127.5px] ">
+            <div className=" mx-auto px-[144px] flex ">
 
 
                 {/* membership Organization */}

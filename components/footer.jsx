@@ -5,10 +5,10 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='w-full max-w-[1440px] mx-auto'>
+    <div className='  '>
 
       {/* frame 16 */}
-      <div className='py-8 flex flex-col gap-8  items-center bg-[#F5F7FA]'>
+      <div className=' py-8 flex flex-col gap-8  items-center bg-[#F5F7FA]'>
         <h1 className="font-semibold text-[64px] leading-[76px] text-[#263238] text-center max-w-[887px]">
           Pellentesque suscipit <br />
           fringilla libero eu.
@@ -28,7 +28,7 @@ const Footer = () => {
       </div>
 
       {/* footer navigation */}
-      <div className='py-16 px-41.25 flex gap-31.25 bg-[#263238] text-white'>
+      <div className='py-16 px-41.25 flex gap-31.25 justify-center bg-[#263238] text-white'>
 
         {/* company info */}
         <div className='w-87.5 flex flex-col gap-10'>
