@@ -18,7 +18,7 @@ const Communityupdates = () => {
             </div>
 
             {/* frame 15 */}
-            <div className='px-36 flex gap-4 justify-between '>
+            <div className='px-6 md:px-10 lg:px-16 xl:px-36 flex gap-4 justify-between '>
 
 
                 <div className='w-[368px] h-[366px] justify-center relative' >

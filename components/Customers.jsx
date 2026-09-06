@@ -5,7 +5,7 @@ import React from "react";
 const Customers = () => {
     return (
         <section className="w-full bg-[#F5F7FA]">
-            <div className="w-full max-w-[1440px] mx-auto py-8 px-6 lg:px-36 flex items-center justify-between gap-10">
+            <div className="w-full max-w-[1440px] mx-auto py-8 px-6 md:px-10 lg:px-16 xl:px-36 flex items-center justify-between gap-10">
 
                 {/* Customer Image */}
                 <div className="shrink-0">
