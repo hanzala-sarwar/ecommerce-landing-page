@@ -18,10 +18,10 @@ const Communityupdates = () => {
             </div>
 
             {/* frame 15 */}
-            <div className='px-6 md:px-10 lg:px-16 xl:px-36 flex gap-4 justify-between '>
+            <div className=' md:px-10 lg:px-16 xl:px-36 flex gap-4 justify-between '>
 
 
-                <div className='w-[368px] h-[366px] justify-center relative' >
+                <div className='w-92 h-91.5 justify-center relative' >
 
                     <Image
                         alt='first'
@@ -45,16 +45,16 @@ const Communityupdates = () => {
                                 className=' text-[#4CAF4F] font-inter font-semibold text-xl/7 tracking-normal'>
                                 Readmore
                             </p>
-                            
 
-                                <Image
-                                    alt='/Right.png'
-                                    src="/Right.png"
-                                    height={24}
-                                    width={24}
 
-                                />
-                             
+                            <Image
+                                alt='/Right.png'
+                                src="/Right.png"
+                                height={24}
+                                width={24}
+
+                            />
+
 
 
                         </Link>
@@ -81,23 +81,23 @@ const Communityupdates = () => {
                         </p>
                         {/*frame 13  */}
                         <Link
-                        href="#"
-                        className='w-71.25  p-2 flex gap-2 items-center justify-center'>
+                            href="#"
+                            className='w-71.25  p-2 flex gap-2 items-center justify-center'>
 
                             <p
 
                                 className=' text-[#4CAF4F] font-inter font-semibold text-xl/7 tracking-normal'>
                                 Readmore
                             </p>
-                            
-                                <Image
-                                    alt='/Right.png'
-                                    src="/Right.png"
-                                    height={24}
-                                    width={24}
 
-                                />
-                             
+                            <Image
+                                alt='/Right.png'
+                                src="/Right.png"
+                                height={24}
+                                width={24}
+
+                            />
+
 
 
                         </Link>
@@ -130,15 +130,15 @@ const Communityupdates = () => {
                                 className=' text-[#4CAF4F] font-inter font-semibold text-xl/7 tracking-normal'>
                                 Readmore
                             </p>
-                           
-                                <Image
-                                    alt='/Right.png'
-                                    src="/Right.png"
-                                    height={24}
-                                    width={24}
 
-                                />
-                             
+                            <Image
+                                alt='/Right.png'
+                                src="/Right.png"
+                                height={24}
+                                width={24}
+
+                            />
+
 
 
                         </Link>

@@ -119,12 +119,12 @@ const Footer = () => {
               Support
             </h3>
 
-            <nav className="w-40 flex flex-col gap-3 text-[14px] leading-[20px] font-normal">
+            <nav className="w-40 flex flex-col gap-3 text-[14px] leading-5 font-normal">
               <Link href="#">Help center</Link>
               <Link href="#">Terms of service</Link>
               <Link href="#">Legal</Link>
               <Link href="#">Privacy policy</Link>
-              <p href="#">Status</p>
+              <Link href="#">Status</Link>
             </nav>
           </div>
 

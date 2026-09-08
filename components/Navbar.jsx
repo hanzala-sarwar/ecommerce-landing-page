@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="w-full bg-[#F5F7FA]">
       <div className="max-w-360 mx-auto px-6 md:px-10 lg:px-16 xl:px-36">
         <div className="h-21 flex items-center justify-between">
-          
+
           {/* Logo */}
           <div className="cursor-pointer shrink-0">
             <Image
@@ -33,7 +33,7 @@ const Navbar = () => {
               Login
             </button>
 
-            <button className="cursor-pointer py-2.5 px-5 bg-[#4CAF4F] text-white rounded-lg">
+            <button className="cursor-pointer  py-2.5 px-5 bg-[#4CAF4F] text-white rounded-lg">
               Signup
             </button>
           </div>

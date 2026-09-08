@@ -17,7 +17,7 @@ const Community = () => {
 
             {/* frame 4 */}
 
-            <div className=" mx-auto px-[144px] flex ">
+            <div className=" mx-auto w-full max-w-[1440px] px-[144px] flex justify-between ">
 
 
                 {/* membership Organization */}
@@ -38,9 +38,9 @@ const Community = () => {
                     </div>
 
 
-                    <div className='flex gap-2 '>
+                    <div className='flex gap-2  '>
                         <p className="text-gray-500 text-center">Our membership management software provides full automation of memb
-                            ership renewwals and payments</p>
+                            ership renewals and payments</p>
                     </div>
 
 
@@ -62,8 +62,8 @@ const Community = () => {
                     </div>
 
 
-                    <div className='flex gap-2 '>
-                        <p className="text-gray-500 text-center">Our membership management software provides full automation of memb
+                    <div className='flex gap-2 w-[251px] h-[60px]'>
+                        <p className="text-gray-500 text-center  ">Our membership management software provides full automation of memb
                             ership renewwals and payments</p>
                     </div>
 
