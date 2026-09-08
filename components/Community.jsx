@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Community = () => {
     return (
-        <div className=" flex flex-col gap-4">
+        <div className=" flex flex-col py-4 gap-4">
 
             {/* community */}
             <div className=" justify-center flex flex-col gap-2 ">
@@ -39,7 +39,8 @@ const Community = () => {
 
 
                     <div className='flex gap-2  '>
-                        <p className="text-gray-500 text-center">Our membership management software provides full automation of memb
+                        <p className="text-gray-500 font-sans font-normal text-sm leading-5 text-center">
+                            Our membership management software provides full automation of memb
                             ership renewals and payments</p>
                     </div>
 
@@ -87,7 +88,8 @@ const Community = () => {
 
 
                     <div className='flex gap-2 '>
-                        <p className="text-gray-500 text-center">Our membership management software provides full automation of memb
+                        <p className="text-gray-500 font-sans font-normal text-sm leading-5 text-center">
+                            Our membership management software provides full automation of memb
                             ership renewwals and payments</p>
                     </div>
 

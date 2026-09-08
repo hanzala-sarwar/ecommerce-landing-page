@@ -20,7 +20,7 @@ export default function Home() {
 
       {/* Home section */}
 
-      <div className="flex flex-col gap-[40px]">
+      <div className="flex flex-col gap-y-[42px]">
         {/* Hero section */}
         <Hero />
 
